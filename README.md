@@ -18,6 +18,10 @@
 К своим сильным сторонам могу отнести целеустремлённость, самостоятельный поиск информации (включая Chat GBT), желание найти максимально результативное и красивое решение.
 Рассматриваю стажировку, проектную деятельность, работу в офисе (г. Тюмень), удаленную работу.
 
+- :mailbox: Как связаться со мной: [![Telegram Badge](https://img.shields.io/badge/-artem-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/art_kak_dela) | [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:sitdikov.artem.job@gmail.comm) | [![image](https://github.com/artem-sitd/artem-sitd/assets/22573129/21096001-0828-40eb-b730-077af0259dd0)](https://tyumen.hh.ru/resume/ea5b10f8ff098266ef0039ed1f736c4b526173)
+
+
+
 ![codewars](https://www.codewars.com/users/artem-sitd/badges/large)
 
 <!--
