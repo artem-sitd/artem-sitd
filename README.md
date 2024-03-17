@@ -1,6 +1,6 @@
 # Привет, меня зовут Артем! 👋
 
----
+--- 
 ### :man_technologist: Обо мне:
 
 Backend / Python разработчик <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30px">.
