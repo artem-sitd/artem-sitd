@@ -74,6 +74,8 @@
 - [**synchron**](https://github.com/artem-sitd/synchron) — микросервис синхронизации PostgreSQL и MongoDB, реализован через SQLAlchemy v2.
 
 - [**todo_TG_bot**](https://github.com/artem-sitd/todo_TG_bot) — Telegram-бот для создания и управления задачами. Django + Aiogram + Celery.
+- **API_HH (private) — Python-инструмент автоматизации работы с API HH.ru**  
+Скрипт для поиска и автоматического отклика на вакансии через HeadHunter API, использует OAuth2, REST-запросы и обработку JSON-ответов. Практическая интеграция с внешними API и автоматизации HR-процесса.
 
 ---
 
