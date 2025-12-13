@@ -51,42 +51,69 @@
 
 ## 🚀 Проекты
 
-- [**collage_photo**](https://github.com/artem-sitd/collage_photo) — генерация фото-коллажей с возможностью настройки сетки и размеров. Стэк: Python 3.10, Pillow (PIL).
+- [**collage_photo**](https://github.com/artem-sitd/collage_photo) — генерация фото-коллажей с возможностью настройки сетки и размеров.
+  <ins>Стэк: Python 3.10, Pillow (PIL).</ins>
 
-- [**CRM**](https://github.com/artem-sitd/CRM) — полнофункциональная CRM-система: Django, Celery, Redis, PostgreSQL, рассылки, задачи. Стэк: Python 3.10, Django, PostgreSQL, Celery, Redis, Docker & Docker Compose.
+- [**CRM**](https://github.com/artem-sitd/CRM) — полнофункциональная CRM-система: Django, Celery, Redis, PostgreSQL, рассылки, задачи.
+<ins>Стэк: Python 3.10, Django, PostgreSQL, Celery, Redis, Docker & Docker Compose. </ins>
 
-- [**Data_Uploader**](https://github.com/artem-sitd/Data_Uploader) — загрузка, хранение и анализ Excel/CSV-файлов. Включён анализ пиков и визуализация. Стэк: Python 3.10, Flask, PostgreSQL, SQLAlchemy.
 
-- [**image-processing-api**](https://github.com/artem-sitd/image-processing-api) — FastAPI-сервис для обработки изображений (ресайз, поворот, фильтры, base64). Стэк: Python 3.10+, FastAPI, PostgreSQL, MinIO (S3), Alembic, Poetry, Docker & Docker Compose.
+- [**Data_Uploader**](https://github.com/artem-sitd/Data_Uploader) — загрузка, хранение и анализ Excel/CSV-файлов. Включён анализ пиков и визуализация.
+<ins>Стэк: Python 3.10, Flask, PostgreSQL, SQLAlchemy. </ins>
 
-- [**link-shortener**](https://github.com/artem-sitd/link-shortener) — Telegram-бот для сокращения ссылок с хранением в MongoDB и историей переходов. Стэк: Python 3.10+, FastAPI, aiogram, Nginx, Docker & Docker Compose.
 
-- [**memes_api**](https://github.com/artem-sitd/memes_api) — API для хранения и выдачи мемов. Загрузка в S3, поиск, фильтрация. Стэк: Python 3.10+, FastAPI, SQLAlchemy, PostgreSQL, MinIO (S3), Alembic (миграции), Pytest, Docker & Docker Compose.
+- [**image-processing-api**](https://github.com/artem-sitd/image-processing-api) — FastAPI-сервис для обработки изображений (ресайз, поворот, фильтры, base64).
+<ins>Стэк: Python 3.10+, FastAPI, PostgreSQL, MinIO (S3), Alembic, Poetry, Docker & Docker Compose. </ins>
 
-- [**notice_f**](https://github.com/artem-sitd/notice_f) — бот-уведомлятор на Django + Aiogram. Рассылка по дате, задачи через Celery. Стэк: Python 3.10+, Django 4.x, Django REST Framework, PostgreSQL, Celery, Redis, Gunicorn, Docker & Docker Compose.
 
-- [**request_rate_limit**](https://github.com/artem-sitd/request_rate_limit) — реализация лимитирования запросов через FastAPI и Redis. Стэк: Python 3.10+, Flask, Redis, python-dotenv, unittest, Docker & Docker Compose.
+- [**link-shortener**](https://github.com/artem-sitd/link-shortener) — Telegram-бот для сокращения ссылок с хранением в MongoDB и историей переходов.
+<ins>Стэк: Python 3.10+, FastAPI, aiogram, Nginx, Docker & Docker Compose. </ins>
 
-- [**salary_aggregate_bot**](https://github.com/artem-sitd/salary_aggregate_bot) — агрегатор зарплат с MongoDB, фильтрацией и Telegram-интерфейсом. Стэк: Python 3.10+, FastAPI, aiogram, MongoDB, Docker & Docker Compose, pytest.
 
-- [**ServicesStatusFastapi**](https://github.com/artem-sitd/ServicesStatusFastapi) — FastAPI-сервис мониторинга состояния внешних/внутренних API. Стэк: Python 3.10+, FastAPI, PostgreSQL, Alembic, Docker & Docker Compose.
+- [**memes_api**](https://github.com/artem-sitd/memes_api) — API для хранения и выдачи мемов. Загрузка в S3, поиск, фильтрация.
+<ins>Стэк: Python 3.10+, FastAPI, SQLAlchemy, PostgreSQL, MinIO (S3), Alembic (миграции), Pytest, Docker & Docker Compose. </ins>
 
-- [**synchron**](https://github.com/artem-sitd/synchron) — Утилита синхронизации между локальной директорией и облачным хранилищем Яндекс.Диск. Поддерживает автоматическое обновление, удаление и загрузку файлов на основе сравнения имен и хэшей. Стэк: python, requests, yandex api.
 
-- [**todo_TG_bot**](https://github.com/artem-sitd/todo_TG_bot) — Telegram-бот для создания и управления задачами. Django + Aiogram + Celery. Стэк: Python 3.10+, aiogram, PostgreSQL, Celery, Redis, Docker & Docker Compose.
+- [**notice_f**](https://github.com/artem-sitd/notice_f) — бот-уведомлятор на Django + Aiogram. Рассылка по дате, задачи через Celery.
+<ins>Стэк: Python 3.10+, Django 4.x, Django REST Framework, PostgreSQL, Celery, Redis, Gunicorn, Docker & Docker Compose.</ins>
+ 
+
+- [**request_rate_limit**](https://github.com/artem-sitd/request_rate_limit) — реализация лимитирования запросов через FastAPI и Redis.
+<ins>Стэк: Python 3.10+, Flask, Redis, python-dotenv, unittest, Docker & Docker Compose. </ins>
+
+
+- [**salary_aggregate_bot**](https://github.com/artem-sitd/salary_aggregate_bot) — агрегатор зарплат с MongoDB, фильтрацией и Telegram-интерфейсом.
+<ins>Стэк: Python 3.10+, FastAPI, aiogram, MongoDB, Docker & Docker Compose, pytest. </ins>
+
+
+- [**ServicesStatusFastapi**](https://github.com/artem-sitd/ServicesStatusFastapi) — FastAPI-сервис мониторинга состояния внешних/внутренних API.
+<ins>Стэк: Python 3.10+, FastAPI, PostgreSQL, Alembic, Docker & Docker Compose. </ins>
   
-- **API_HH (private) — Python-инструмент автоматизации работы с API HH.ru**  
-Скрипт для поиска и автоматического отклика на вакансии через HeadHunter API, использует OAuth2, REST-запросы и обработку JSON-ответов. Практическая интеграция с внешними API и автоматизации HR-процесса. Стэк: python, requests, api hh.ru (на декабрь 2025 hh прекратил поддержку апи).
+
+- [**synchron**](https://github.com/artem-sitd/synchron) — Утилита синхронизации между локальной директорией и облачным хранилищем Яндекс.Диск. Поддерживает автоматическое обновление, удаление и загрузку файлов на основе сравнения имен и хэшей.
+<ins>Стэк: python, requests, yandex api. </ins>
+
+
+- [**todo_TG_bot**](https://github.com/artem-sitd/todo_TG_bot) — Telegram-бот для создания и управления задачами. Django + Aiogram + Celery.
+<ins>Стэк: Python 3.10+, aiogram, PostgreSQL, Celery, Redis, Docker & Docker Compose.</ins>
+
+  
+- **API_HH (private) — Python-инструмент автоматизации работы с API HH.ru**  Скрипт для поиска и автоматического отклика на вакансии через HeadHunter API, использует OAuth2, REST-запросы и обработку JSON-ответов. Практическая интеграция с внешними API и автоматизации HR-процесса.
+<ins>Стэк: python, requests, api hh.ru (на декабрь 2025 hh прекратил поддержку апи). </ins>
 
 - [**Flaskter**](https://github.com/artem-sitd/Flaskter) - Flaskter — это минималистичное Flask-приложение (Сервис микроблогов), демонстрирующее архитектуру с вынесенной бизнес-логикой и модульной структурой. 
 В проекте реализованы авторизация, работа с базой данных и REST-эндпоинты. Используются шаблоны, Blueprints и разделение слоёв для удобства масштабирования. 
-Репозиторий служит базой для разработки более сложных backend-сервисов на Flask. Стэк: python, gunicorn, flask-restful, sqlalchemy, pytest, alembic, pytest, requests.
+Репозиторий служит базой для разработки более сложных backend-сервисов на Flask.
+<ins>Стэк: python, gunicorn, flask-restful, sqlalchemy, pytest, alembic, pytest, requests. </ins>
+
 
 - [**telebot_hotel**](https://github.com/artem-sitd/telebot_hotel) Telegram-бот на Python с использованием Telebot и ORM Peewee для поиска и сортировки отелей (через АПИ rapidapi) по разным критериям (цена, расстояние от центра), с историей запросов и базой данных.
- Стэк: python, peewee, pyTelegramBotAPI, requests.
+<ins>Стэк: python, peewee, pyTelegramBotAPI, requests. </ins>
+
 
 - [**online_store**](https://github.com/artem-sitd/online_store_meg) Интернет-магазин с backend на Django REST Framework и SQLite, реализующий каталог, корзину, заказ и оплату, а также профили пользователей и фильтрацию товаров под Swagger-документацию.
-  Стэк: python, djangorestframework, Pillow, PyJWT, requests.
+<ins>Стэк: python, djangorestframework, Pillow, PyJWT, requests. </ins>
+  
 ---
 
 📌 Основные интересы:
