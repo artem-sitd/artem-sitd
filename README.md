@@ -1,133 +1,255 @@
-## 🧑‍💻 Обо мне
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=2B7BE4&center=true&vCenter=true&width=600&lines=Artem+Sitdikov;Python+Backend+Developer;FastAPI+%2F+Django+%2F+Async+Systems" alt="Header" />
+</p>
 
-Привет! Я Python backend-разработчик, специализирующийся на создании надёжных, масштабируемых и поддерживаемых систем. В своей работе я делаю упор на архитектуру, чистый код, документацию и автоматизацию. Умею выстраивать эффективный backend: от проектирования базы данных и бизнес-логики до CI/CD, деплоя и мониторинга в проде.
-
----
-
-## 🛠️ Стек технологий
-
-### Backend
-- **Python 3.** — основной язык
-- **Django / DRF**, **FastAPI**, **Flask**
-- **Celery** (Redis, RabbitMQ), **WebSockets**
-- **REST API**, **OpenAPI / Swagger**, **OAuth2 / JWT**
-- **Асинхронность** — `asyncio`, `httpx`, `aiogram`
-
-### DevOps / CI/CD
-- **Docker**, Docker Compose
-- **Git**, GitHub / GitLab, **GitLab CI/CD**
-- **Makefile**, bash-скрипты
-- **Nginx**, systemd
-- Управление окружениями: venv, pipenv, poetry
-
-### Базы данных / кэш / брокеры
-- **PostgreSQL** (включая индексацию, транзакции, SQL-оптимизацию)
-- **MongoDB** (в т.ч. для логов и истории изменений)
-- **Redis** (брокер, кэш, rate limit)
-
-### Тестирование и качество кода
-- **Pytest**, **UnitTest**
-- Покрытие: `coverage`
-- Линтинг и автоформатирование: `flake8`, `black`, `isort`
-- Pre-commit хуки
-
-### Документация и API
-- Markdown, reStructuredText
-- Swagger / drf-yasg
-- Автогенерация документации, changelog
-
-### Фронтенд (базово)
-- HTML / CSS / Bootstrap
-- React (на уровне API-интеграций)
-- Redux DevTools
-
-### Дополнительно
-- Linux / Windows (рабочие окружения, shell-скрипты)
-- Логирование (`logging`, Sentry, Promtail)
-- cron, Celery beat
-- Интеграции: платёжки, SMS, внешние API
+<p align="center">
+  <a href="https://github.com/artem-sitd"><img src="https://img.shields.io/badge/GitHub-artem--sitd-2B7BE4?logo=github" /></a>
+  <a href="https://pypi.org/project/fastapi-arq/"><img src="https://img.shields.io/badge/PyPI-fastapi--arq-2B7BE4?logo=pypi" /></a>
+  <img src="https://img.shields.io/badge/Python-3.11%2B-2B7BE4?logo=python" />
+  <img src="https://img.shields.io/badge/FastAPI-0.111%2B-2B7BE4?logo=fastapi" />
+</p>
 
 ---
 
-## 🚀 Проекты
-- [**video_bot**](https://github.com/artem-sitd/video_bot) -Проект реализует Telegram-бота, который принимает вопросы на естественном языке (RU), преобразует их в формализованный план запроса и выполняет агрегации по данным в PostgreSQL.
-  <ins>Стэк: Python3, aiogram, SQLAlchemy, PostgreSQL, Pydantic v2, OpenAI API (через HTTP/SOCKS proxy), Alembic (миграции)</ins>
+## 🇷🇺 Привет! / 🇬🇧 Hello!
 
-- [**collage_photo**](https://github.com/artem-sitd/collage_photo) — генерация фото-коллажей с возможностью настройки сетки и размеров.
-  <ins>Стэк: Python 3.10, Pillow (PIL).</ins>
+**RU:** Python backend-разработчик. Специализируюсь на надёжных, масштабируемых системах: от проектирования БД и бизнес-логики до CI/CD, деплоя и мониторинга. Убеждённый сторонник чистой архитектуры, документации как части кода и автоматизации всего, что автоматизируется.
 
-- [**CRM**](https://github.com/artem-sitd/CRM) — полнофункциональная CRM-система: Django, Celery, Redis, PostgreSQL, рассылки, задачи.
-<ins>Стэк: Python 3.10, Django, PostgreSQL, Celery, Redis, Docker & Docker Compose. </ins>
-
-
-- [**Data_Uploader**](https://github.com/artem-sitd/Data_Uploader) — загрузка, хранение и анализ Excel/CSV-файлов. Включён анализ пиков и визуализация.
-<ins>Стэк: Python 3.10, Flask, PostgreSQL, SQLAlchemy. </ins>
-
-
-- [**image-processing-api**](https://github.com/artem-sitd/image-processing-api) — FastAPI-сервис для обработки изображений (ресайз, поворот, фильтры, base64).
-<ins>Стэк: Python 3.10+, FastAPI, PostgreSQL, MinIO (S3), Alembic, Poetry, Docker & Docker Compose. </ins>
-
-
-- [**link-shortener**](https://github.com/artem-sitd/link-shortener) — Telegram-бот для сокращения ссылок с хранением в MongoDB и историей переходов.
-<ins>Стэк: Python 3.10+, FastAPI, aiogram, Nginx, Docker & Docker Compose. </ins>
-
-
-- [**memes_api**](https://github.com/artem-sitd/memes_api) — API для хранения и выдачи мемов. Загрузка в S3, поиск, фильтрация.
-<ins>Стэк: Python 3.10+, FastAPI, SQLAlchemy, PostgreSQL, MinIO (S3), Alembic (миграции), Pytest, Docker & Docker Compose. </ins>
-
-
-- [**notice_f**](https://github.com/artem-sitd/notice_f) — бот-уведомлятор на Django + Aiogram. Рассылка по дате, задачи через Celery.
-<ins>Стэк: Python 3.10+, Django 4.x, Django REST Framework, PostgreSQL, Celery, Redis, Gunicorn, Docker & Docker Compose.</ins>
- 
-
-- [**request_rate_limit**](https://github.com/artem-sitd/request_rate_limit) — реализация лимитирования запросов через FastAPI и Redis.
-<ins>Стэк: Python 3.10+, Flask, Redis, python-dotenv, unittest, Docker & Docker Compose. </ins>
-
-
-- [**salary_aggregate_bot**](https://github.com/artem-sitd/salary_aggregate_bot) — агрегатор зарплат с MongoDB, фильтрацией и Telegram-интерфейсом.
-<ins>Стэк: Python 3.10+, FastAPI, aiogram, MongoDB, Docker & Docker Compose, pytest. </ins>
-
-
-- [**ServicesStatusFastapi**](https://github.com/artem-sitd/ServicesStatusFastapi) — FastAPI-сервис мониторинга состояния внешних/внутренних API.
-<ins>Стэк: Python 3.10+, FastAPI, PostgreSQL, Alembic, Docker & Docker Compose. </ins>
-  
-
-- [**synchron**](https://github.com/artem-sitd/synchron) — Утилита синхронизации между локальной директорией и облачным хранилищем Яндекс.Диск. Поддерживает автоматическое обновление, удаление и загрузку файлов на основе сравнения имен и хэшей.
-<ins>Стэк: python, requests, yandex api. </ins>
-
-
-- [**todo_TG_bot**](https://github.com/artem-sitd/todo_TG_bot) — Telegram-бот для создания и управления задачами. Django + Aiogram + Celery.
-<ins>Стэк: Python 3.10+, aiogram, PostgreSQL, Celery, Redis, Docker & Docker Compose.</ins>
-
-  
-- **API_HH (private) — Python-инструмент автоматизации работы с API HH.ru**  Скрипт для поиска и автоматического отклика на вакансии через HeadHunter API, использует OAuth2, REST-запросы и обработку JSON-ответов. Практическая интеграция с внешними API и автоматизации HR-процесса.
-<ins>Стэк: python, requests, api hh.ru (на декабрь 2025 hh прекратил поддержку апи). </ins>
-
-- [**Flaskter**](https://github.com/artem-sitd/Flaskter) - Flaskter — это минималистичное Flask-приложение (Сервис микроблогов), демонстрирующее архитектуру с вынесенной бизнес-логикой и модульной структурой. 
-В проекте реализованы авторизация, работа с базой данных и REST-эндпоинты. Используются шаблоны, Blueprints и разделение слоёв для удобства масштабирования. 
-Репозиторий служит базой для разработки более сложных backend-сервисов на Flask.
-<ins>Стэк: python, gunicorn, flask-restful, sqlalchemy, pytest, alembic, pytest, requests. </ins>
-
-
-- [**telebot_hotel**](https://github.com/artem-sitd/telebot_hotel) Telegram-бот на Python с использованием Telebot и ORM Peewee для поиска и сортировки отелей (через АПИ rapidapi) по разным критериям (цена, расстояние от центра), с историей запросов и базой данных.
-<ins>Стэк: python, peewee, pyTelegramBotAPI, requests. </ins>
-
-
-- [**online_store**](https://github.com/artem-sitd/online_store_meg) Интернет-магазин с backend на Django REST Framework и SQLite, реализующий каталог, корзину, заказ и оплату, а также профили пользователей и фильтрацию товаров под Swagger-документацию.
-<ins>Стэк: python, djangorestframework, Pillow, PyJWT, requests. </ins>
-  
----
-
-📌 Основные интересы:
-- Высоконагруженные API
-- Микросервисная архитектура
-- Telegram-боты
-- Интеграции с внешними сервисами
-- Docker-окружения и деплой
-- Производительность, кэширование, логирование
+**EN:** Python backend engineer focused on reliable, scalable systems — from database design and business logic to CI/CD, deployment, and monitoring. I believe in clean architecture, docs-as-code, and automating everything automatable.
 
 ---
 
-## 📈 GitHub Статистика
+## 🚀 Featured Project
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=artem-sitd&show_icons=true&theme=default)
+<p align="center">
+  <a href="https://github.com/artem-sitd/fastapi-arq">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=artem-sitd&repo=fastapi-arq&theme=default&border_color=2B7BE4" />
+  </a>
+</p>
+
+**fastapi-arq** — декоратор-обёртка, интегрирующая arq (async Redis queue) в FastAPI без boilerplate. Первая опубликованная библиотека на PyPI.
+
+**fastapi-arq** — a decorator-style wrapper that integrates arq (async Redis queue) into FastAPI without boilerplate. My first PyPI package.
+
+```python
+from fastapi_arq import FastArq
+
+arq = FastArq(app, "redis://localhost:6379")
+
+@arq.task(max_tries=3)
+async def send_email(ctx: dict, user_id: int): ...
+```
+
+---
+
+## 🛠️ Tech Stack
+
+<table>
+  <tr>
+    <th colspan="2" align="center">Backend</th>
+  </tr>
+  <tr>
+    <td width="120"><b>Languages</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Frameworks</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/FastAPI-0.111%2B-009688?logo=fastapi" />
+      <img src="https://img.shields.io/badge/Django-5.x-092E20?logo=django" />
+      <img src="https://img.shields.io/badge/DRF-black?logo=django" />
+      <img src="https://img.shields.io/badge/Flask-black?logo=flask" />
+      <img src="https://img.shields.io/badge/aiohttp-black?logo=aiohttp" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Async</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/asyncio-3776AB?logo=python" />
+      <img src="https://img.shields.io/badge/Celery-37814A?logo=celery" />
+      <img src="https://img.shields.io/badge/ARQ-2B7BE4?logo=redis" />
+      <img src="https://img.shields.io/badge/aiogram-2CA5E0?logo=telegram" />
+      <img src="https://img.shields.io/badge/httpx-2B7BE4" />
+      <img src="https://img.shields.io/badge/WebSockets-010101" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Databases</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis" />
+      <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>ORM</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/SQLAlchemy-2.x-D71F00?logo=sqlalchemy" />
+      <img src="https://img.shields.io/badge/Django_ORM-092E20?logo=django" />
+      <img src="https://img.shields.io/badge/Peewee-2B7BE4" />
+      <img src="https://img.shields.io/badge/Alembic-2B7BE4" />
+    </td>
+  </tr>
+  <tr>
+    <th colspan="2" align="center">DevOps & Tooling</th>
+  </tr>
+  <tr>
+    <td><b>Infra</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker" />
+      <img src="https://img.shields.io/badge/Docker_Compose-2496ED?logo=docker" />
+      <img src="https://img.shields.io/badge/Nginx-009639?logo=nginx" />
+      <img src="https://img.shields.io/badge/Gunicorn-499848?logo=gunicorn" />
+      <img src="https://img.shields.io/badge/systemd-2B7BE4" />
+      <img src="https://img.shields.io/badge/Makefile-2B7BE4" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>CI/CD</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions" />
+      <img src="https://img.shields.io/badge/GitLab_CI-FC6D26?logo=gitlab" />
+      <img src="https://img.shields.io/badge/Jenkins-D24939?logo=jenkins" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Quality</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Pytest-0A9EDC?logo=pytest" />
+      <img src="https://img.shields.io/badge/mypy-2B7BE4" />
+      <img src="https://img.shields.io/badge/ruff-2B7BE4" />
+      <img src="https://img.shields.io/badge/Pre--commit-FAB040?logo=precommit" />
+      <img src="https://img.shields.io/badge/Sentry-362D59?logo=sentry" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Auth</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/OAuth2-2B7BE4" />
+      <img src="https://img.shields.io/badge/JWT-2B7BE4" />
+      <img src="https://img.shields.io/badge/OpenID-2B7BE4" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📦 Projects
+
+<table>
+  <tr>
+    <th>Project</th>
+    <th>Description</th>
+    <th>Stack</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/fastapi-arq"><b>fastapi-arq</b></a> ⭐</td>
+    <td>FastAPI + ARQ без boilerplate. Библиотека на PyPI</td>
+    <td>FastAPI, arq, Redis, Pydantic</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/video_bot"><b>video_bot</b></a></td>
+    <td>Telegram-бот: вопросы на NL → SQL-агрегации через OpenAI</td>
+    <td>aiogram, SQLAlchemy, PostgreSQL, OpenAI</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/CRM"><b>CRM</b></a></td>
+    <td>Полнофункциональная CRM: рассылки, задачи, роли</td>
+    <td>Django, Celery, Redis, PostgreSQL</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/image-processing-api"><b>image-processing-api</b></a></td>
+    <td>Обработка изображений: ресайз, поворот, фильтры</td>
+    <td>FastAPI, MinIO (S3), PostgreSQL</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/Flaskter"><b>Flaskter</b></a></td>
+    <td>Микроблоги на Flask с чистой архитектурой</td>
+    <td>Flask, SQLAlchemy, Alembic, pytest</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/online_store_meg"><b>online_store</b></a></td>
+    <td>Интернет-магазин: каталог, корзина, заказ, оплата</td>
+    <td>DRF, JWT, Swagger</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/synchron"><b>synchron</b></a></td>
+    <td>Синхронизация с Яндекс.Диск (хэши, автообновление)</td>
+    <td>Python, requests, Yandex API</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/salary_aggregate_bot"><b>salary_aggregate_bot</b></a></td>
+    <td>Агрегатор зарплат + Telegram-интерфейс</td>
+    <td>FastAPI, MongoDB, aiogram</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/ServicesStatusFastapi"><b>ServicesStatusFastapi</b></a></td>
+    <td>Мониторинг состояния внешних/внутренних API</td>
+    <td>FastAPI, PostgreSQL, Alembic</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/memes_api"><b>memes_api</b></a></td>
+    <td>API мемов: S3-загрузка, поиск, фильтрация</td>
+    <td>FastAPI, MinIO (S3), pytest</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/Data_Uploader"><b>Data_Uploader</b></a></td>
+    <td>Загрузка Excel/CSV, анализ пиков, визуализация</td>
+    <td>Flask, PostgreSQL, SQLAlchemy</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/link-shortener"><b>link-shortener</b></a></td>
+    <td>Telegram-бот для сокращения ссылок</td>
+    <td>FastAPI, aiogram, MongoDB</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/notice_f"><b>notice_f</b></a></td>
+    <td>Бот-уведомлятор: рассылка по дате, Celery-задачи</td>
+    <td>Django, DRF, Celery, Redis</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/request_rate_limit"><b>request_rate_limit</b></a></td>
+    <td>Лимитирование запросов через FastAPI + Redis</td>
+    <td>Flask, Redis, Docker</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/todo_TG_bot"><b>todo_TG_bot</b></a></td>
+    <td>Telegram-бот для управления задачами</td>
+    <td>aiogram, Celery, Redis</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/collage_photo"><b>collage_photo</b></a></td>
+    <td>Генерация фото-коллажей</td>
+    <td>Pillow</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/artem-sitd/telebot_hotel"><b>telebot_hotel</b></a></td>
+    <td>Поиск отелей через RapidAPI + Telegram</td>
+    <td>pyTelegramBotAPI, Peewee</td>
+  </tr>
+</table>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=artem-sitd&theme=default" width="600" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=artem-sitd&theme=default" height="140" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=artem-sitd&theme=default" height="140" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=artem-sitd&theme=default" height="140" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=artem-sitd&theme=default&utcOffset=3" height="140" />
+</p>
+
+---
+
+<p align="center">
+  <b>📫 Connect / Связаться</b><br>
+  <a href="mailto:betroxqq@gmail.com">artem.sitd@gmail.com</a>
+</p>
